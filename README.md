@@ -1,2 +1,2 @@
 # codenotes
-Run using 'g++ main.cpp \`pkg-config --cflags --libs gtk+-3.0\`'.
+Run using 'gcc -o gladewin main.c -Wall \`pkg-config --cflags --libs gtk+-3.0\` -export-dynamic'.
