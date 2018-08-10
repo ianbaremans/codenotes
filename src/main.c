@@ -22,10 +22,10 @@ int main(int argc, char *argv[]) {
 
     window = GTK_WIDGET(gtk_builder_get_object(builder, "window_main"));
     gtk_builder_connect_signals(builder, NULL);
-
-    g_object_unref(builder);
 	
 	display_md();
+
+    g_object_unref(builder);
 
     gtk_widget_show(window);                
     gtk_main();
