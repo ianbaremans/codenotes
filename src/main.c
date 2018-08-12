@@ -37,7 +37,7 @@ void display_md() {
 	view = GTK_WIDGET(gtk_builder_get_object(builder, "textview1"));
 	buffer = gtk_text_view_get_buffer (GTK_TEXT_VIEW (view));
 
-	gtk_text_buffer_set_text (buffer, "Hello, this is some text", -1);
+	gtk_text_buffer_set_text (buffer, "Hello, this is some text, and i like this very much", -1);
 
 	/* Change default font and color throughout the widget */
 	provider = gtk_css_provider_new ();
